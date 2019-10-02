@@ -21,7 +21,7 @@
 	background-size: contain;
 }
 
-.menu ul {
+nav {
 	width: 1440px;
 	height: 100px;
 	background-image: linear-gradient(to bottom, greenyellow 10%, royalblue 100%);
@@ -38,17 +38,13 @@
 	font-size: 20px;
 }
 
-.footer {
+.footer p {
 	width: 1440px;
 	height: 200px;
 	background-color: royalblue;
 	font-family: Montserrat;
 	font-size: 20px;
 	color: white;
-	text-align: right;
 	line-height: 50px;
 }
 
-.footer img {
-	text-align: left;
-}

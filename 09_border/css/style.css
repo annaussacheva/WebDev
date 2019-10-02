@@ -1,0 +1,9 @@
+.bordered {
+	width: 500px;
+	height: 500px;
+	border-top: 5px dotted powderblue;
+	border-right: 5px dashed orangered;
+	border-left: 5px solid mediumslateblue;
+	border-bottom: 5px double cornflowerblue;
+	border-radius: 250px;
+}

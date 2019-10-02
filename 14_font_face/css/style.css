@@ -1,0 +1,20 @@
+@font-face {
+	src: url(../font/Block.otf);
+	font-family: "Block";
+	font-weight: normal;
+}
+
+.heading h1 {
+	font-size: 70px;
+	font-weight: bold;
+	font-style: italic;
+	font-family: "Block";
+}
+
+.paragraph p {
+	font-family: "Block";
+}
+
+.paragraphTwo p {
+	font-family: "Block";
+}

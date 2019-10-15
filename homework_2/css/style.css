@@ -123,14 +123,17 @@
 } 
 
 .back {
-	width: 70px;
-	height: 20px;
+	position: absolute;
+	left: 1350px;
+	top: 20px;
+} 
+
+a {
 	text-decoration: none;
 	text-transform: uppercase;
 	font-family: sans-serif;
 	font-size: 20px;
 	color: white;
-	position: absolute;
-	left: 1350px;
-	top: 20px;
-} 
+	width: 70px;
+	height: 20px;
+}

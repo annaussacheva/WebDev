@@ -89,29 +89,6 @@
 }
 .bottles {
 	width: 1440px;
-	display: inline-flex;
-	justify-content: space-around;
-}
-
-.wang {
-	width: 281px;
-	height: 863px;
-	background-image: url(../img/wang.png);
-}
-
-.christian {
-	width: 281px;
-	height: 863px;
-	background-image: url(../img/blue.png);
-}
-
-.chiara {
-	width: 281px;
-	height: 863px;
-	background-image: url(../img/chiara.png);
-}
-
-.text {
 	display: flex;
 	justify-content: space-around;
 	font-family: futura-pt, sans-serif;
@@ -119,6 +96,32 @@
 	font-style: normal;
 	font-size: 25px;
 	text-align: center;
+}
+
+.wang {
+	width: 281px;
+	height: 863px;
+}
+
+.wang p {
+	margin-top: 48px;
+}
+
+.christian {
+	width: 281px;
+	height: 863px;
+}
+
+.christian p {
+	margin-top: 48px;
+}
+
+.chiara {
+	width: 281px;
+	height: 863px;
+}
+
+.chiara p {
 	margin-top: 48px;
 }
 

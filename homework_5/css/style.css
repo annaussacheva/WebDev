@@ -1,0 +1,109 @@
+@import url(reset.css);
+
+@keyframes header {
+	from {
+		font-size: 3.5em;
+	}
+	to {
+		font-size: 4.5em;
+	}
+}
+
+body {
+	background-color: black;
+}
+
+.header {
+	width: 100vw;
+	height: 140px;
+	background-color: white;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.header h1 {
+	font-family: balboa-plus-primary,sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	font-size: 3.5em;
+	animation: header 1.5s infinite alternate;
+}
+
+.columns {
+	width: 80vw;
+	min-height: 550px;
+	margin: 70px auto;
+	display: flex;
+	justify-content: space-between;
+}
+
+.column {
+	width: calc((100% - 100px)/3);
+	box-sizing: border-box;
+	background-color: white;
+}
+
+.column h2 {
+	font-family: balboa-plus-primary,sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	font-size: 1.5em;
+	padding: 15px;
+}
+
+.column p {
+	font-family: news-gothic-std,sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	padding: 15px;
+}
+
+.column:hover {
+	background-color: lightblue;
+	transition-duration: 1s;
+}
+
+.image {
+	padding-bottom: 100%;
+}
+
+.image.one {
+	background-image: url(../img/samosa.png);
+	background-size: cover;
+	background-position: center;
+}
+
+.image.two {
+	background-image: url(../img/yogurt.png);
+	background-size: cover;
+	background-position: center;
+}
+
+.image.three {
+	background-image: url(../img/granola.png);
+	background-size: cover;
+	background-position: center;
+}
+
+.footer {
+	width: 100vw;
+	height: 140px;
+	background-color: white;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.footer div {
+	font-family: balboa-plus-primary,sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	font-size: 3.5em;
+	margin: 30px;
+}
+
+.footer a {
+	color: black;
+	text-decoration: none;
+}

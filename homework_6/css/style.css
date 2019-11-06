@@ -1,0 +1,93 @@
+@import url(reset.css);
+
+.header {
+	background-color: blue;
+	width: 100%;
+	height: 10vh;
+	display: flex;
+	align-items: center;
+}
+
+.feed {
+	font-family: nimbus-sans-extended,sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	color: white;
+	margin-left: 20px;
+}
+
+.octopus, .internet, .ghost, .abloh {
+	font-family: nimbus-sans-extended,sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	border: 3px solid black;
+	text-align: center;
+}
+
+.footer {
+	background-color: blue;
+	width: 100%;
+	height: 10vh;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.copyright {
+	font-family: nimbus-sans-extended,sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	color: white;
+	margin-left: 20px;
+}
+
+.back {
+	font-family: nimbus-sans-extended,sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	color: white;
+	text-decoration: none;
+	margin-right: 20px; 
+}
+
+@media screen and (min-width: 375px) {
+	.content {
+		margin: 20px;
+	}
+	.octopus, .internet, .ghost, .abloh {
+		width: calc(100% - 20px);
+		height: 116px;
+		margin: 10px;
+		display: flex;
+		align-items: center;
+		box-sizing: border-box;
+		padding: 20px;
+	}
+}
+
+@media screen and (min-width: 667px) {
+	.content {
+		margin: 55px;
+	}
+
+	.first {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+	}
+	.octopus, .internet, .ghost, .abloh {
+		width: calc((100% - 20px)/2);
+		height: 20vh;
+		margin: 10px;
+		display: flex;
+		align-items: center;
+		box-sizing: border-box;
+		padding: 20px;
+	}
+
+	.second {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+	}
+}
